@@ -5,7 +5,7 @@ public class conversion {
         Scanner teclado = new Scanner(System.in);
         float km;
 
-        System.out.println("Ingresa la cantidad de kilometros: ");
+        System.out.println("\n Ingresa la cantidad de kilometros: ");
         km=teclado.nextFloat();
 
         System.out.println("\n Metros: "+ (km * 1000) );
